@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mahmoud Nayef"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/rvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0599999999999999"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/rvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaza Palestine..."
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
